@@ -40,14 +40,14 @@
 					  { "text" : "Item 2Ai" },
 					  { "text" : "Item 2Aii" }
 					]
-			  	  }			
+			  	  }
 			  ]
 			},
 			{ "text" : "Item 2",
 			"listItemNested" : [
 				{ "text" : "Item2A" },
 				{ "text" : "Item2B" },
-				{ "text" : "Item2C" }	
+				{ "text" : "Item2C" }
 			]
 			},
 			{ "text" : "Item 3"}
@@ -69,7 +69,7 @@
 	"srOnlyText" : "Current:",
 	"srClass" : "show-for-sr",
 	"drilldownMenu" : [
-		{ "text" : "Item 1",	
+		{ "text" : "Item 1",
 		  "drilldownSubmenu" : [
 			{ "drilldownSubmenuList" : [
 				{ "text" : "Item 1A",
@@ -87,7 +87,7 @@
 				{ "text" : "Item 1D" }
 			] }
 		  ]
-			
+
 		},
 		{ "text" : "Item 2",
 		  "drilldownSubmenu" : [
@@ -97,7 +97,7 @@
 				{ "text" : "Item 2C" },
 				{ "text" : "Item 2D" }
 			] }
-		  ]	
+		  ]
 		},
 		{ "text" : "Item 3",
 		  "drilldownSubmenu" : [
@@ -106,20 +106,20 @@
 				{ "text" : "Item 3B" },
 				{ "text" : "Item 3C" }
 			] }
-		  ]	
+		  ]
 		},
 		{ "text" : "Item 4" }
 	],
 	"listItem" : [
-		{ 
+		{
 			"text" : "Item 1",
 			"dropdownNested" : [
-				{ 
+				{
 					"nestedListItem" : [
-						{ 
+						{
 							"text" : "Item 1A",
 							"dropdownNestedSublist" : [
-								{ 
+								{
 									"nestedSublistItem" : [
 									{ "text" : "Item 1Ai"},
 									{ "text" : "Item 1Aii"},
@@ -128,26 +128,26 @@
 								    ]
 								}
 							]
-						}, 
+						},
 						{ "text" : "Item 1B" }
 				    ]
 				}
-			]  
+			]
 		},
-		{ 
+		{
 			"text" : "Item 2",
 			"dropdownNested" : [
-				{ 
+				{
 					"nestedListItem" : [
-						{ 
+						{
 							"text" : "Item 2A",
 							"dropdownNestedSublist" : [
-								{ 
+								{
 									"nestedSublistItem" : [
 									{ "text" : "Item 2Ai" },
 									{ "text" : "Item 2Aii" },
 									{ "text" : "Item 2Aii" }
-									
+
 								    ]
 								}
 							]
@@ -155,46 +155,46 @@
 						{ "text" : "Item 2B" }
 				    ]
 				}
-			]  
+			]
 		},
 		{ "text" : "Item 3"}
 	],
 	"paginationListItem" : [
-		{ 
+		{
 			"text" : "Previous",
 			"paginationDisabled" : true,
 			"hasUrl" : false
-			
+
 		},
-		{ 
+		{
 			"text" : "1",
 			"paginationCurrent" : "You're on page",
 			"classCurrent" : true,
 			"hasUrl" : false
 		},
-		{ 
+		{
 		  	"text" : "2",
 		  	"hasUrl" : true
 		},
-		{ 
+		{
 			"text" : "3",
-			"hasUrl" : true 
+			"hasUrl" : true
 		},
-		{ 
+		{
 			"text" : "4",
 			"hasUrl" : true
 		},
-		{ 
+		{
 			"text" : "Next",
 			"paginationDisabled" : false,
-			"hasUrl" : true 
+			"hasUrl" : true
 		}
 	],
 	"accordionList" : [
 		{
 			"panelUrl" : "#panel1d",
 			"accordionHeading" : "Accordion 1",
-			"activeClass" : "is-active" 
+			"activeClass" : "is-active"
 		},
 		{
 			"panelUrl" : "#panel1d",
@@ -202,7 +202,7 @@
 		},
 		{
 			"panelUrl" : "#panel1d",
-			"accordionHeading" : "Accordion 1"
+			"accordionHeading" : "Accordion 3"
 		}
 	],
 	"calloutClass" : "",
@@ -227,7 +227,7 @@
 				{ "text" : "row 2 cell 3" }
 
 			]
-		}	
+		}
 	],
 	"tabsList" : [
 		{
@@ -284,22 +284,22 @@
 			"activeClass" : "is-active",
 			"src" : "../../img/orbit-1.jpg",
 			"alt" : "Galaxy",
-			"text" : "To Infinity And Beyond"	
+			"text" : "To Infinity And Beyond"
 		},
 		{
 			"src" : "../../img/orbit-2.jpg",
 			"alt" : "Space Shuttle",
-			"text" : "Blast Off!"	
+			"text" : "Blast Off!"
 		},
 		{
 			"src" : "../../img/orbit-3.jpg",
 			"alt" : "USA Space Capsule",
-			"text" : "Houston, We've Got A Problem"	
+			"text" : "Houston, We've Got A Problem"
 		},
 		{
 			"src" : "../../img/orbit-4.jpg",
 			"alt" : "Space",
-			"text" : "Out Of This World"	
+			"text" : "Out Of This World"
 		}
 	],
 	"orbitBullets" : [
